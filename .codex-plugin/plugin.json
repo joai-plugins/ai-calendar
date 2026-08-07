@@ -1,0 +1,38 @@
+{
+  "name": "joai-ai-calendar",
+  "version": "0.3.0",
+  "description": "Connect AI Calendar to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/ai-calendar",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "ai-calendar"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "AI Calendar by JoAi",
+    "shortDescription": "Connect AI Calendar to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "Manage calendar events — create, update, delete, and list — through your AI agent. Provider-agnostic: works with whichever calendar the agent is connected to (Google, Microsoft, Apple). Every action routes through your configured integration so there is one interface regardless of provider.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/ai-calendar",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the AI Calendar tools available in this app.",
+      "Explain what setup or authentication AI Calendar needs before I run an action.",
+      "Use AI Calendar to help me with the task I describe next."
+    ]
+  }
+}
